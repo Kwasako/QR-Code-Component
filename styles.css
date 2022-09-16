@@ -1,5 +1,10 @@
 html {
+  html {
   box-sizing: border-box;
+  font-size: 16px;
+  font-family: san-serif;
+  font-weight: 400;
+}
 }
 body {
   padding:20px;
@@ -8,8 +13,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+  background-color:#7b879d;
 }
-h2, h4, p {
+h2, p {
   margin: 0;
 }
 *, *:before, *:after {
@@ -17,23 +23,41 @@ h2, h4, p {
 }
 
 #QRcard {
- 
-  width : 300px;
-  height: 300px;
-  background-color: #7b879d;
+ display: absolute;
+  width : 320px;
+  height: 400px;
+  background-color: white;
+  border-radius:5px;
 }
 
-#inner-content{
-display: inline-block;
-  width : 150px;
-  height: 150px;
+#imag-content{
+  display:inline-block;
+  width : 100%;
+  height: 60%;
   background-color: #ffffff;
-  margin: 75px;
- justify-content: center;
-    align-items: center;
+  margin: px;
+ 
 }
 img {
+  margin:px;
+  width:100%;
+  height:100%
+}
+#text-content {
+  display:inline-block;
+  padding:15px;
+  
+}
+h2 {
+  padding:10px;
+  color:#2A5398;
+}
+#upper-text{
   margin:12px;
   
 }
+p{
+  color:#4D5366;
+}
+
 
